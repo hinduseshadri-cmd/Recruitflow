@@ -1,7 +1,5 @@
-# Environment variables — NEVER share these
-.env
 
-# Python
+.env
 venv/
 __pycache__/
 *.pyc
@@ -9,17 +7,15 @@ __pycache__/
 *.pyd
 .Python
 
-# Uploads folder — resume files
 uploads/
 
-# Database
 *.db
 *.sqlite
 
-# IDE
 .vscode/
 .idea/
 
-# OS files
 .DS_Store
 Thumbs.db
+
+*.zip
